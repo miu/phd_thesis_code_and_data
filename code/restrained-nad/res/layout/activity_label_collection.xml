@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LabelCollectionActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView 
+                android:text="What were you doing 10-20 seconds ago?"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal" />
+            
+            <Button
+                android:id="@+id/walking"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_green"
+                android:text="Walking"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/sitting"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_yellow"
+                android:text="Sitting"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/standing"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_yellow"
+                android:text="Standing"
+                android:textColor="@color/black" />
+
+            <Button 
+                android:id="@+id/sitting_knee_raises"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_yellow"
+                android:text="Sitting Knee Raises"
+                android:textColor="@color/black" />
+            
+            <Button
+                android:id="@+id/calf_raises"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_purple"
+                android:text="Calf Raises"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/squats"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_purple"
+                android:text="Squats"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/torso_side_to_side"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_blue"
+                android:text="Torso Side-to-Side Leans"
+                android:textColor="@color/black" />
+
+            <!--
+            <Button
+                android:id="@+id/torso_twists"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@color/blue"
+                android:text="Torso Twists" 
+                android:layout_marginTop="5dp" />
+                -->
+
+            <Button
+                android:id="@+id/torso_forward_backward"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_blue"
+                android:text="Torso Forward Leans"
+                android:textColor="@color/black" />
+            
+            <Button
+                android:id="@+id/torso_twists"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_blue"
+                android:text="Torso Twists"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/discard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:background="@color/background_red"
+                android:text="@string/activity_discard"
+                android:textColor="@color/red" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="z">z</string>
+    
+    <string name="sum.x">sum.x</string>
+    <string name="sum.y">sum.y</string>
+    <string name="sum.z">sum.z</string>
+    
+    <string name="sum.sq.x">sum.sq.x</string>
+    <string name="sum.sq.y">sum.sq.y</string>
+    <string name="sum.sq.z">sum.sq.z</string>
+    
+    <string name="sum.xy">sum.xy</string>
+    <string name="sum.yz">sum.yz</string>
+    <string name="sum.zx">sum.zx</string>
+    
+    <string name="mean.x">mean.x</string>
+    <string name="mean.y">mean.y</string>
+    <string name="mean.z">mean.z</string>
+    
+    <string name="var.x">var.x</string>
+    <string name="var.y">var.y</string>
+    <string name="var.z">var.z</string>
+    
+    <string name="cor.xy">cor.xy</string>
+    <string name="cor.yz">cor.yz</string>
+    <string name="cor.zx">cor.zx</string>
+</resources>
